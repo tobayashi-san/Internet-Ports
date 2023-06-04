@@ -1,23 +1,39 @@
 #WEB
-80   #Standard-HTTP
-443  #Sicherer-HTTP
+80     #Standard-HTTP
+443    #Sicherer-HTTP
+
 #E-MAIL
-25   #E-Mail-Versand
-110  #E-Mail-Empfang (POP3)
-143  #E-Mail-Empfang (IMAP)
+25     #E-Mail-Versand
+110    #E-Mail-Empfang (POP3)
+143    #E-Mail-Empfang (IMAP)
+
 #SICHERER ZUGRIFF
-22   #Sicherer-Fernzugriff (SSH)
-3389 #Remote-Desktop-Zugriff (RDP)
+22     #Sicherer-Fernzugriff (SSH)
+3389   #Remote-Desktop-Zugriff (RDP)
+
 #DATEITRANSFER
-21   #FTP-Dateitransfer
+21     #FTP-Dateitransfer
+
 #NETZWERK
-53   #DNS-Namensauflösung
-123  #Zeitsynchronisierung (NTP)
+53     #DNS-Namensauflösung
+123    #Zeitsynchronisierung (NTP)
+
 #INSTANT MESSAGING
-5222  #Instant-Messaging (XMPP)
-5223  #Sicherer-Instant-Messaging (XMPP über SSL/TLS)
+5222   #Instant-Messaging (XMPP)
+5223   #Sicherer-Instant-Messaging (XMPP über SSL/TLS)
+
 #VOIP-KOMMUNIKATION
-5060  #VoIP-Kommunikation (SIP)
+5060   #VoIP-Kommunikation (SIP)
+
 #PROXY
-8080  #HTTP-Proxy
-8443  #Sicherer-HTTP-Proxy
+8080   #HTTP-Proxy
+8443   #Sicherer-HTTP-Proxy
+
+#WEITERE PORTS
+5683   #CoAP (Constrained Application Protocol)
+3478   #STUN (Session Traversal Utilities for NAT)
+5353   #mDNS (Multicast DNS)
+
+#SPEEDTEST PORTS
+5201   #iPerf - TCP/UDP
+5060   #VoIP-Kommunikation (SIP)
